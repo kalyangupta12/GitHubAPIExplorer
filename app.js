@@ -5,8 +5,9 @@ let getbio = document.querySelector(".job");
 let getDp = document.querySelector(".profile-img");
 let getName = document.querySelector(".name");
 // GitHub User Details Fetching
+let changedURL = prompt("Enter your Username:");
+let requestURL= 'https://api.github.com/users/'+changedURL;
 function fetchdetailslive(){
-    const requestURL = 'https://api.github.com/users/kalyangupta12';
     const xhr = new XMLHttpRequest();
     xhr.open('GET', requestURL);
     let follow;
@@ -33,5 +34,6 @@ function fetchdetailslive(){
 }
 //Main function
 fetchdetailslive();
+//one can fetch realtime but Github has some limitation by which it can restrict the IP address if the same machine fetches many that's why its not better to use setInterval 
 //Fetches Live Data every 100 miliseconds
-setInterval(fetchdetailslive, 100);
+// setInterval(fetchdetailslive, 100);
