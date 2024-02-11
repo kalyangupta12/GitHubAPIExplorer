@@ -27,17 +27,10 @@ A simple web application that dynamically fetches and displays information from 
 3. View the dynamic profile card displaying information from the GitHub user "kalyangupta12".
 4. Explore the GitHub profile by clicking on the GitHub icon.
 
-## Demo
-
-You can see a live demo [here](#).
 
 ## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests to suggest features, report bugs, or make improvements.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
