@@ -26,10 +26,7 @@ This web application dynamically fetches and displays information from a GitHub 
 - CSS
 - JavaScript
 - GitHub API
-
-## Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests to suggest features, report bugs, or make improvements.
+  
 ---
 
 ## Note on Realtime Data Fetching
