@@ -2,30 +2,30 @@
 
 ---
 
-# GitHub Profile Card
+# Dynamic GitHub Profile Card
 
-A simple web application that dynamically fetches and displays information from a GitHub user's profile using the GitHub API. The application presents the fetched data in a stylish profile card UI design.
+This web application dynamically fetches and displays information from a GitHub user's profile using the GitHub API. The user can input their GitHub username, and the application will retrieve and display their profile information in a stylish profile card UI design.
 
 ## Features
 
 - Fetches and displays the user's profile picture, name, bio, number of followers, and number of followings.
-- Includes a link to the user's GitHub profile.
-- Updates the information in real-time every 100 milliseconds.
+- Provides an input field for the user to enter their GitHub username.
+- Updates the profile information in real-time as soon as the user inputs their username.
+- Utilizes the GitHub API to retrieve user data.
+
+## Usage
+
+1. Open the `index.html` file in a web browser.
+2. Enter your GitHub username when prompted.
+3. View the dynamic profile card displaying your GitHub profile information.
+4. Explore your GitHub profile by clicking on the provided links.
 
 ## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
-- [Boxicons](https://boxicons.com/) - For icons
-
-## Usage
-
-1. Clone the repository to your local machine.
-2. Open the `index.html` file in a web browser.
-3. View the dynamic profile card displaying information from the GitHub user "kalyangupta12".
-4. Explore the GitHub profile by clicking on the GitHub icon.
-
+- GitHub API
 
 ## Contributing
 
