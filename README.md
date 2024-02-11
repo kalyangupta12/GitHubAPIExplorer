@@ -25,8 +25,7 @@ A simple web application that dynamically fetches and displays information from 
 1. Clone the repository to your local machine.
 2. Open the `index.html` file in a web browser.
 3. View the dynamic profile card displaying information from the GitHub user "kalyangupta12".
-4. Click the "Realtime Data" button to continuously update the displayed information.
-5. Explore the GitHub profile by clicking on the GitHub icon.
+4. Explore the GitHub profile by clicking on the GitHub icon.
 
 ## Demo
 
