@@ -30,7 +30,14 @@ A simple web application that dynamically fetches and displays information from 
 ## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests to suggest features, report bugs, or make improvements.
-
 ---
+
+## Note on Realtime Data Fetching
+
+While it's possible to fetch realtime data from the GitHub API using techniques like `setInterval`, it's important to be aware of GitHub's rate limiting policies. GitHub imposes rate limits on API requests to prevent abuse and ensure fair usage for all users. Continuous polling of the API, especially from the same IP address, can lead to hitting these rate limits.
+
+GitHub may restrict access or block the IP address if it detects excessive requests originating from the same machine. Therefore, it's not advisable to rely solely on `setInterval` for realtime data fetching, as it can result in hitting rate limits and potential disruption of service.
+
+--- 
 
 Feel free to customize this README according to your project's specific details and requirements.
