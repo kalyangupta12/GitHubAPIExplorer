@@ -10,7 +10,6 @@ A simple web application that dynamically fetches and displays information from 
 
 - Fetches and displays the user's profile picture, name, bio, number of followers, and number of followings.
 - Includes a link to the user's GitHub profile.
-- Provides a "Realtime Data" button to continuously update the displayed information.
 - Updates the information in real-time every 100 milliseconds.
 
 ## Technologies Used
